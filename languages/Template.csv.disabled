@@ -1,0 +1,216 @@
+Key,Text,FormatArgs,Comment
+translation.iso,en_XT,,"ISO-code, used for automatically matching the user's system language"
+translation.language,English,,This translation's language's localized name
+translation.name,English (template for Nix's mods),,Name of this translation (disambiguates variants)
+translation.author,Nixill,,Author/credits for this translation
+settings.video.cutscene.subtitles,settings.video.cutscene.subtitles,,Listed here for a quick check if it's loaded.
+settings.mod.NixLib,NixLib,,
+settings.mod.PowerSettings,PowerSettings,,
+settings.mod.Switcheroo,Switcheroo,,
+mod.NixLib.text.cancel,Cancel,,
+mod.NixLib.text.continue,Continue,,
+mod.NixLib.text.default,Default,,
+mod.NixLib.text.disable,Disable,,
+mod.NixLib.text.done,Done,,
+mod.NixLib.text.enable,Enable,,
+mod.NixLib.text.no,No,,
+mod.NixLib.text.randomize,Randomize,,
+mod.NixLib.text.reset,Reset,,
+mod.NixLib.text.yes,Yes,,
+mod.PowerSettings.text.addListItem,+ Add,,
+mod.PowerSettings.text.bitflagUnnamedDetail,Unnamed bit %s,- Which bit is unnamed?,
+mod.PowerSettings.text.bitflagUnnamed,Unnamed bit,,
+mod.PowerSettings.text.errors.bitflagOmission,Bitflag settings must specify flags or presets (preferably both).,,
+mod.PowerSettings.text.errors.settingID,Settings defined through PowerSettings must have an id (recommended) or autoRegister.,,
+mod.PowerSettings.text.format.bitflag0,No flags,,
+mod.PowerSettings.text.format.bitflag1,1 flag (%s),"1: The value of the bitflag, in hex",
+mod.PowerSettings.text.format.bitflag2,2 flags (%s),"1: The value of the bitflag, in hex",Used for *exactly* 2; separate from Plus for languages with a dual.
+mod.PowerSettings.text.format.bitflagPlus,%i flags (%s),"1: The number of flags set
+2: The value of the bitflag, in hex",Used for 3 or more; separate from 2 for languages with a dual.
+mod.PowerSettings.text.format.entity,%s (%s),"1: The entity's friendly name
+2: The entity's technical name","Left-to-right languages shouldn't change this, but right-to-left languages may wish to set it to ""(%s$2) %s$1""."
+mod.PowerSettings.text.format.list0,Empty,,
+mod.PowerSettings.text.format.list1,1 item,,"Currently unused, but will be used in the future."
+mod.PowerSettings.text.format.list2,2 items,,Used for *exactly* 2; separate from Plus for languages with a dual.
+mod.PowerSettings.text.format.listPlus,%d items,,Used for 3 or more; separate from 2 for languages with a dual.
+mod.PowerSettings.text.format.noSuchComponent,(No such component: %s),1: The missing component,
+mod.PowerSettings.text.format.noSuchEntity,(No such entity: %s),1: The missing entity,
+mod.PowerSettings.text.listItemName,%s item,1: The list setting's name,Not actually used.
+mod.PowerSettings.text.render.add,Press '%s' to add without selecting the item.,1: The secondary menu-selection key (usually tab).,Shown in the list editor.
+mod.PowerSettings.text.render.insert,'%s': End move | '%s': Delete | '%s'/'%s': Move | '%s': Insert above,"1: The secondary menu-selection key (usually tab).
+2: The leftward menu key (usually left).
+3: The upward menu key (usually up).
+4: The downward menu key (usually down).
+5: The rightward menu key (usually right).",Shown in the list editor in modify mode.
+mod.PowerSettings.text.render.modify,Press '%s' for additional options.,1: The secondary menu-selection key (usually tab).,Shown in the list editor.
+mod.PowerSettings.text.render.noInsert,'%s': End move | '%s': Delete | '%s'/'%s': Move,"1: The secondary menu-selection key (usually tab).
+2: The leftward menu key (usually left).
+3: The upward menu key (usually up).
+4: The downward menu key (usually down).",Shown in the list editor in modify mode.
+mod.PowerSettings.text.searchHint,Use '%s' to search!,"1: The search key (usually control+f).",Shown in the component and entity selection menus.
+mod.PowerSettings.text.selectComponent,Select component,,
+mod.PowerSettings.text.selectEntity,Select entity,,
+mod.Switcheroo.text.bans.giving.allow,Allow item,,
+mod.Switcheroo.text.bans.giving.dontAllow,Don't allow item,,
+mod.Switcheroo.text.bans.giving.dynamicGold,Allow while holding gold,,
+mod.Switcheroo.text.bans.taking.dontTake,Don't take item,,
+mod.Switcheroo.text.bans.taking.take,Take item,,
+mod.Switcheroo.text.bans.taking.ifGiven,Take if given by mod,,
+mod.Switcheroo.text.charmsAlgorithms.simple,Simple,,
+mod.Switcheroo.text.floors.depth,Depth %d-%d,"1: What depth (like zone but always increments) is the setting for
+2: What level of that depth is the setting for",
+mod.Switcheroo.text.floors.extraBoss,Add extra/custom boss floors,,"If the player is using mods that add custom zones, or if the run is in a custom dungeon, this flag controls whether or not the mod is allowed on boss floors of those zones/dungeons."
+mod.Switcheroo.text.floors.extraOther,Add other extra floors,,"If the player is using mods that add custom zones, or if the run is in a custom dungeon, this flag controls whether or not the mod is allowed on non-boss, non-post-boss floors of those zones/dungeons."
+mod.Switcheroo.text.floors.extraPostBosses,Add extra post-boss floors,,"If the player is using mods that add custom zones, or if the run is in a custom dungeon, this flag controls whether or not the mod is allowed on the floor immediately following a boss fight in those zones/dungeons."
+mod.Switcheroo.text.floors.extraStoryBoss,Extra story boss,,"If there is more than one story boss, this flag controls whether or not the mod activates on those fights (under default rules, that means ND1 for Cadence or The Conductor for Nocturna)."
+mod.Switcheroo.text.floors.rawNumbers,Raw floor numbers above,,"If this flag is enabled, the Depth x-x flags are instead treated as raw floor numbers 1 to 20 for a custom dungeon. When disabled, custom dungeons won't use those floor flags at all (except that 1-1 will ALWAYS refer to the first floor of a run)."
+mod.Switcheroo.text.floors.trainingFloors,Training floors,,"If this flag is enabled, the mod can be active in training floors."
+mod.Switcheroo.text.floorPresets.allFloors,All floors,,"The mod activates on all floors (this is the default)."
+mod.Switcheroo.text.floorPresets.firstOfZone,First of each zone,,"The mod activates on the first floor of each zone."
+mod.Switcheroo.text.floorPresets.postBosses,After every boss,,"The mod activates only on the floor after defeating a boss."
+mod.Switcheroo.text.floorPresets.startOfRun,Start of run only,,"The mod activates only on 1-1 and on training floors."
+mod.Switcheroo.text.formats.itemPoolAdvanced,%s (%s),"1: The item pool's mod-given name
+2: The item pool's technical name","Left-to-right languages shouldn't change this. However, right-to-left languages may wish to set it to ""(%s$2) %s$1""."
+mod.Switcheroo.text.formats.noLimit,(No limit),,"No limit on how many items/slots can be changed by the mod."
+mod.Switcheroo.text.formats.sell.no,No,,"Do not sell items taken by the mod"
+mod.Switcheroo.text.formats.sell.yes,%d%% of purchase price,"1: The percentage of the purchase price recouped",
+mod.Switcheroo.text.func.nounCase,lower,,"This should be set to ""upper"" in languages like German that require nouns to be capitalized. See the key mod.Switcheroo.text.settings.defaultItemDesc for more information."
+mod.Switcheroo.text.itemPools.itemPoolChest,Chest,,
+mod.Switcheroo.text.itemPools.itemPoolRedChest,Red boss chest,,
+mod.Switcheroo.text.itemPools.itemPoolPurpleChest,Purple boss chest,,
+mod.Switcheroo.text.itemPools.itemPoolBlackChest,Black boss chest,,
+mod.Switcheroo.text.itemPools.itemPoolLockedChest,Locked chest,,
+mod.Switcheroo.text.itemPools.itemPoolShop,Shop,,
+mod.Switcheroo.text.itemPools.itemPoolLockedShop,Locked shop,,
+mod.Switcheroo.text.itemPools.itemPoolUrn,Urn,,
+mod.Switcheroo.text.itemPools.itemPoolSecret,Conjurer,,
+mod.Switcheroo.text.itemPools.itemPoolFood,Food,,
+mod.Switcheroo.text.itemPools.itemPoolHearts,Hearts,,
+mod.Switcheroo.text.itemPools.itemPoolCrate,Crate,,
+mod.Switcheroo.text.itemPools.itemPoolWar,Shrine of War,,
+mod.Switcheroo.text.itemPools.itemPoolUncertainty,Shrine of Uncertainty,,
+mod.Switcheroo.text.itemPools.itemPoolEnchant,Enchant weapon scroll,,
+mod.Switcheroo.text.itemPools.itemPoolNeed,Need scroll,,
+mod.Switcheroo.text.itemPools.switcheroo_itemPoolSwitcheroo,Switcheroo default,,
+mod.Switcheroo.text.replaceMode.empty,Fill empty slots,,
+mod.Switcheroo.text.replaceMode.everything,Fill and replace,,
+mod.Switcheroo.text.replaceMode.existing,Replace existing items,,
+mod.Switcheroo.text.settings.defaultItemDesc,Default item for %s slot,"1: The item slot name","The item slot name is autofilled by the values of the mod.Switcheroo.text.slots.names.* translation keys. If mod.Switcheroo.text.func.nounCase is ""upper"", they'll be left unchanged; otherwise, they'll be converted to all lowercase. This isn't used for holsters, though."
+mod.Switcheroo.text.slots.names.action,Item,,"The slot's technical name is action."
+mod.Switcheroo.text.slots.names.body,Body,,
+mod.Switcheroo.text.slots.names.feet,Feet,,
+mod.Switcheroo.text.slots.names.head,Head,,
+mod.Switcheroo.text.slots.names.holster,Holster,,"This isn't technically a slot."
+mod.Switcheroo.text.slots.names.misc,Charms,,"The slot's technical name is misc."
+mod.Switcheroo.text.slots.names.ring,Ring,,
+mod.Switcheroo.text.slots.names.shield,Shield,,
+mod.Switcheroo.text.slots.names.shovel,Shovel,,
+mod.Switcheroo.text.slots.names.spell,Spell,,
+mod.Switcheroo.text.slots.names.torch,Torch,,
+mod.Switcheroo.text.slots.names.weapon,Attack,,"The slot's technical name is weapon, but the HUD calls it attack."
+mod.Switcheroo.text.slots.presets.allButHolster,All slots except holster,,
+mod.Switcheroo.text.slots.presets.allButHolsterShield,All slots except shield and holster,,
+mod.Switcheroo.text.slots.presets.allButShield,All slots except shield,,
+mod.Switcheroo.text.slots.presets.allButWeapon,All slots except weapons,,
+mod.Switcheroo.text.slots.presets.allButWeaponShield,All slots except shield and weapons,,
+mod.Switcheroo.text.slots.presets.all,All slots,,
+mod.Switcheroo.text.slots.presets.none,No slots,,
+entity.mod.Switcheroo.noneItem.name,"(None)",,This placeholder entity is used to denote the lack of a default item in slot defaults.
+settings.mod.Switcheroo.allowedFloors,Allowed floors,,
+settings.mod.Switcheroo.allowedFloors.description,The floors on which the mod can activate.,,
+settings.mod.Switcheroo.bomb,Bomb settings,,
+settings.mod.Switcheroo.bomb.description,Change how Switcheroo plays with bombs,,
+settings.mod.Switcheroo.charms,Charms settings,,
+settings.mod.Switcheroo.charms.description,Settings related to the Misc (Charms) slots,,
+settings.mod.Switcheroo.charms.algorithm,Algorithm used,,
+settings.mod.Switcheroo.charms.algorithm.description,Which charms algorithm should be used?,,
+settings.mod.Switcheroo.charms.maxAdd,Maximum added charms,,
+settings.mod.Switcheroo.charms.maxAdd.description,How many charms can the mod add per floor?,,
+settings.mod.Switcheroo.charms.maxTotal,Maximum total charms,,
+settings.mod.Switcheroo.charms.maxTotal.description,How many charms can you have before the mod stops adding?,,
+settings.mod.Switcheroo.defaults,Defaults,,
+settings.mod.Switcheroo.defaults.holster.description,Default item for holsters,,
+settings.mod.Switcheroo.dontGive,Don't give...,,
+settings.mod.Switcheroo.dontGive.description,Categories of items that shouldn't be given by the mod.,,
+settings.mod.Switcheroo.dontGive.bannedItems,Banned items,,
+settings.mod.Switcheroo.dontGive.bannedItems.description,Whether or not items normally banned for a character should be removed from Switcheroo's item pool.,,
+settings.mod.Switcheroo.dontGive.components,Components,,
+settings.mod.Switcheroo.dontGive.components.description,Specific components that shouldn't be given.,,
+settings.mod.Switcheroo.dontGive.damageUps,Incoming-damage increasers,,
+settings.mod.Switcheroo.dontGive.damageUps.description,Whether or not items that increase incoming damage should be removed from Switcheroo's item pool.,,
+settings.mod.Switcheroo.dontGive.deadlyItems,Deadly items,,
+settings.mod.Switcheroo.dontGive.deadlyItems.description,"Whether or not items that are only banned as ""kill player on pickup"" should be removed from Switcheroo's item pool.",,
+settings.mod.Switcheroo.dontGive.floatingItems,Floating items,,
+settings.mod.Switcheroo.dontGive.floatingItems.description,Whether or not items that cause levitation should be removed from Switcheroo's item pool.,,
+settings.mod.Switcheroo.dontGive.goldItems,Gold-related items,,
+settings.mod.Switcheroo.dontGive.goldItems.description,Whether or not items that affect the collection of gold should be removed from Switcheroo's item pool.,,
+settings.mod.Switcheroo.dontGive.items,Items,,
+settings.mod.Switcheroo.dontGive.items.description,Specific items that shouldn't be given.,,
+settings.mod.Switcheroo.dontGive.magicFood,Magic food,,
+settings.mod.Switcheroo.dontGive.magicFood.description,Whether or not magic food should be removed from Switcheroo's item pool.,,
+settings.mod.Switcheroo.dontGive.moveAmplifiers,Movement amplifiers,,
+settings.mod.Switcheroo.dontGive.moveAmplifiers.description,Whether or not movement amplifiers should be removed from Switcheroo's item pool.,,
+settings.mod.Switcheroo.dontGive.visionReducers,Vision-reducing items,,
+settings.mod.Switcheroo.dontGive.visionReducers.description,Whether or not items that reduce vision should be removed from Switcheroo's item pool.,,
+settings.mod.Switcheroo.dontTake,Don't take...,,
+settings.mod.Switcheroo.dontTake.description,Items that shouldn't be taken by the mod.,,
+settings.mod.Switcheroo.dontTake.crownOfGreed,Crown of Greed,,
+settings.mod.Switcheroo.dontTake.crownOfGreed.description,Whether or not the Crown of Greed should be taken by the mod.,,
+settings.mod.Switcheroo.dontTake.locked,Items locked to character,,
+settings.mod.Switcheroo.dontTake.locked.description,Whether or not items that have a ban on being taken from the character should be taken by the mod.,,
+settings.mod.Switcheroo.dontTake.luckyCharm,Lucky Charm,,
+settings.mod.Switcheroo.dontTake.luckyCharm.description,Whether or not the Lucky Charm should be taken by the mod.,,
+settings.mod.Switcheroo.dontTake.potion,Potion,,
+settings.mod.Switcheroo.dontTake.potion.description,Whether or not the Potion should be taken by the mod.,,
+settings.mod.Switcheroo.dontTake.ringOfWonder,Ring of Wonder,,
+settings.mod.Switcheroo.dontTake.ringOfWonder.description,Whether or not the Ring of Wonder should be taken by the mod.,,
+settings.mod.Switcheroo.dontTake.alwaysLabel,Items below cannot be taken by the mod at all.,,"Above the ""Don't take items"" and ""Don't take components"" settings."
+settings.mod.Switcheroo.dontTake.items,Items,,
+settings.mod.Switcheroo.dontTake.items.description,Specific items that shouldn't be taken.,,
+settings.mod.Switcheroo.dontTake.components,Components,,
+settings.mod.Switcheroo.dontTake.components.description,Specific components that shouldn't be taken.,,
+settings.mod.Switcheroo.dontTake.unlessGivenLabel,"Items below can be taken if, and only if, given by the mod.",,
+settings.mod.Switcheroo.dontTake.componentsUnlessGiven,Components,,
+settings.mod.Switcheroo.dontTake.componentsUnlessGiven.description,Specific components that shouldn't be taken (unless given).,,
+settings.mod.Switcheroo.dontTake.itemsUnlessGiven,Items,,
+settings.mod.Switcheroo.dontTake.itemsUnlessGiven.description,Specific items that shouldn't be taken (unless given).,,
+settings.mod.Switcheroo.generatorFallback,Fallback to unweighted generator,,
+settings.mod.Switcheroo.generatorFallback.description,Should the unweighted generator be used if no item pool generates an item?,,
+settings.mod.Switcheroo.generators,Generator types,,
+settings.mod.Switcheroo.generators.description,Which generator(s) should be used for the mod?,,
+settings.mod.Switcheroo.guarantees,Honor guaranteed transmutations,,
+settings.mod.Switcheroo.guarantees.description,Whether or not transmutes/transmogs with fixed outcomes should be honored.,,
+settings.mod.Switcheroo.replacement,Replacement chances,,
+settings.mod.Switcheroo.replacement.description,Settings for what and when should be replaced,,
+settings.mod.Switcheroo.replacement.advancedEmptyChance,Empty slot fill chance,,
+settings.mod.Switcheroo.replacement.advancedEmptyChance.description,The chance an empty slot is selected and filled.,,
+settings.mod.Switcheroo.replacement.advancedEmptyMinSlots,Minimum empty slots,,
+settings.mod.Switcheroo.replacement.advancedEmptyMinSlots.description,"The number of empty slots that must be picked (if that many exist), even if 0% chance.",,
+settings.mod.Switcheroo.replacement.advancedFullMinSlots,Minimum full slots,,
+settings.mod.Switcheroo.replacement.advancedFullMinSlots.description,"The number of full slots that must be picked (if that many exist), even if 0% chance.",,
+settings.mod.Switcheroo.replacement.advancedFullReplaceChance,Selected slot replacement chance,,
+settings.mod.Switcheroo.replacement.advancedFullReplaceChance.description,The chance a selected (filled) slot is replaced.,,
+settings.mod.Switcheroo.replacement.advancedFullSelectChance,Full slot selection chance,,
+settings.mod.Switcheroo.replacement.advancedFullSelectChance.description,The chance a filled slot is selected and emptied.,,
+settings.mod.Switcheroo.replacement.advancedMaxItems,Maximum items given,,
+settings.mod.Switcheroo.replacement.advancedMaxItems.description,The highest number of items that must be given.,,
+settings.mod.Switcheroo.replacement.advancedMaxSlots,Maximum slots,,
+settings.mod.Switcheroo.replacement.advancedMaxSlots.description,The highest number of slots that must be picked.,,
+settings.mod.Switcheroo.replacement.advancedMinItems,Minimum items given,,
+settings.mod.Switcheroo.replacement.advancedMinItems.description,"The number of items that must be given, if that many slots are picked.",,
+settings.mod.Switcheroo.replacement.advancedMinSlots,Minimum total slots,,
+settings.mod.Switcheroo.replacement.advancedMinSlots.description,"The number of slots that must be picked, if it's more than the two individual minimums.",,
+settings.mod.Switcheroo.sellItems,Sell items,,
+settings.mod.Switcheroo.sellItems.description,Price for which to sell removed items.,,
+settings.mod.Switcheroo.slots,Slot settings,,
+settings.mod.Switcheroo.slots.description,Settings that modify slots.,,
+settings.mod.Switcheroo.slots.allowed,Allowed slots,,
+settings.mod.Switcheroo.slots.allowed.description,Which slots can the mod alter?,,
+settings.mod.Switcheroo.slots.capacity,Slot capacity,,
+settings.mod.Switcheroo.slots.capacity.description,"How many items should be given per slot, even if it can hold more? Charms not included.",,
+settings.mod.Switcheroo.slots.oneTime,One-time slots,,
+settings.mod.Switcheroo.slots.oneTime.description,Which slots can the mod only alter once?,,
+settings.mod.Switcheroo.slots.reduce,Reduce over cap,,
+settings.mod.Switcheroo.slots.reduce.description,"If there are more items than the cap in a slot, should the items be downsized?",,
+settings.mod.Switcheroo.slots.unlocked,Unlocked slots,,
+settings.mod.Switcheroo.slots.unlocked.description,Which slots can the mod ignore item bans within?,,
