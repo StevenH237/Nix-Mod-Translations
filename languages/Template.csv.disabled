@@ -28,7 +28,7 @@ mod.PowerSettings.text.format.bitflag2,2 flags (%s),"1: The value of the bitflag
 mod.PowerSettings.text.format.bitflagPlus,%i flags (%s),"1: The number of flags set
 2: The value of the bitflag, in hex",Used for 3 or more; separate from 2 for languages with a dual.
 mod.PowerSettings.text.format.entity,%s (%s),"1: The entity's friendly name
-2: The entity's technical name","Left-to-right languages shouldn't change this, but right-to-left languages may wish to set it to ""(%s$2) %s$1""."
+2: The entity's technical name","Left-to-right languages shouldn't change this, but right-to-left languages may wish to set it to ""(%2$s) %1$s""."
 mod.PowerSettings.text.format.list0,Empty,,
 mod.PowerSettings.text.format.list1,1 item,,"Currently unused, but will be used in the future."
 mod.PowerSettings.text.format.list2,2 items,,Used for *exactly* 2; separate from Plus for languages with a dual.
@@ -70,7 +70,7 @@ mod.Switcheroo.text.floorPresets.firstOfZone,First of each zone,,"The mod activa
 mod.Switcheroo.text.floorPresets.postBosses,After every boss,,"The mod activates only on the floor after defeating a boss."
 mod.Switcheroo.text.floorPresets.startOfRun,Start of run only,,"The mod activates only on 1-1 and on training floors."
 mod.Switcheroo.text.formats.itemPoolAdvanced,%s (%s),"1: The item pool's mod-given name
-2: The item pool's technical name","Left-to-right languages shouldn't change this. However, right-to-left languages may wish to set it to ""(%s$2) %s$1""."
+2: The item pool's technical name","Left-to-right languages shouldn't change this. However, right-to-left languages may wish to set it to ""(%2$s) %1$s""."
 mod.Switcheroo.text.formats.noLimit,(No limit),,"No limit on how many items/slots can be changed by the mod."
 mod.Switcheroo.text.formats.sell.no,No,,"Do not sell items taken by the mod"
 mod.Switcheroo.text.formats.sell.yes,%d%% of purchase price,"1: The percentage of the purchase price recouped",
@@ -388,3 +388,11 @@ settings.mod.CharRules.unspecific,Unspecific rules,,
 settings.mod.CharRules.unspecific.actions,Allowed actions,,
 settings.mod.CharRules.unspecific.actions.description,Which actions can the player take?,,
 settings.mod.CharRules.unspecific.description,Other rules that don't apply to specific characters,,
+settings.mod.SpatialDistortions,Spatial Distortions,,
+mod.SpatialDistortions.text.clumping.level,Level,,
+mod.SpatialDistortions.text.clumping.none,None,,
+mod.SpatialDistortions.text.clumping.zone,Zone,,
+mod.SpatialDistortions.text.order.custom,Custom,,
+mod.SpatialDistortions.text.order.normal,Normal,,
+mod.SpatialDistortions.text.order.random,Random,,
+mod.SpatialDistortions.text.order.reversed,Reversed,,
