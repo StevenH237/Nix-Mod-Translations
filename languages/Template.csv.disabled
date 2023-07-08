@@ -4,12 +4,15 @@ translation.language,English,,This translation's language's localized name
 translation.name,English (template for Nix's mods),,Name of this translation (disambiguates variants)
 translation.author,Nixill,,Author/credits for this translation
 ,,,
+,,,Mod versions
+version.mod.PowerSettings,2.6.0,,Version numbers are listed to keep track of which keys have been added.
+,,,
 ,,,Quick check
 settings.video.cutscene.subtitles,settings.video.cutscene.subtitles,,Listed here for a quick check if it's loaded.
 ,,,
 ,,,Mod names in settings
 settings.mod.NixLib,NixLib,,
-settings.mod.PowerSettings,PowerSettings,,
+settings.mod.PowerSettings,Power Settings,,
 settings.mod.SpatialDistortions,Spatial Distortions,,
 settings.mod.Switcheroo,Switcheroo,,
 ,,,
@@ -29,6 +32,7 @@ mod.NixLib.text.yes,Yes,,
 mod.PowerSettings.text.addListItem,+ Add,,
 mod.PowerSettings.text.bitflagUnnamedDetail,Unnamed bit %s,- Which bit is unnamed?,
 mod.PowerSettings.text.bitflagUnnamed,Unnamed bit,,
+mod.PowerSettings.text.cancelMove,Cancel move,,
 mod.PowerSettings.text.errors.bitflagOmission,Bitflag settings must specify flags or presets (preferably both).,,
 mod.PowerSettings.text.errors.settingID,Settings defined through PowerSettings must have an id (recommended) or autoRegister.,,
 mod.PowerSettings.text.format.bitflag0,No flags,,
@@ -44,18 +48,22 @@ mod.PowerSettings.text.format.list2,2 items,,Used for *exactly* 2; separate from
 mod.PowerSettings.text.format.listPlus,%d items,,Used for 3 or more; separate from 2 for languages with a dual.
 mod.PowerSettings.text.format.noSuchComponent,(No such component: %s),1: The missing component,
 mod.PowerSettings.text.format.noSuchEntity,(No such entity: %s),1: The missing entity,
-mod.PowerSettings.text.listItemName,%s item,1: The list setting's name,Not actually used.
-mod.PowerSettings.text.render.add,Press '%s' to add without selecting the item.,1: The secondary menu-selection key (usually tab).,Shown in the list editor.
+mod.PowerSettings.text.list.insertAbove,Insert above,,
+mod.PowerSettings.text.list.move,Move...,,
+mod.PowerSettings.text.list.remove,Remove,,
+mod.PowerSettings.text.listIsEmpty,(empty),,A list setting has no items
+mod.PowerSettings.text.listItemName,%s item,1: The list setting's name,Not actually used. Use mod.PowerSettings.text.format.list0/1/2/Plus instead.
+mod.PowerSettings.text.render.add,Press '%s' to add without selecting the item.,1: The secondary menu-selection key (usually tab).,Previously shown in the list editor. No longer used but may be again in the future.
 mod.PowerSettings.text.render.insert,'%s': End move | '%s': Delete | '%s'/'%s': Move | '%s': Insert above,"1: The secondary menu-selection key (usually tab).
 2: The leftward menu key (usually left).
 3: The upward menu key (usually up).
 4: The downward menu key (usually down).
-5: The rightward menu key (usually right).",Shown in the list editor in modify mode.
-mod.PowerSettings.text.render.modify,Press '%s' for additional options.,1: The secondary menu-selection key (usually tab).,Shown in the list editor.
+5: The rightward menu key (usually right).",Previously shown in the list editor in modify mode. No longer used.
+mod.PowerSettings.text.render.modify,Press '%s' for additional options.,1: The secondary menu-selection key (usually tab).,Previously shown in the list editor. No longer used but may be again in the future.
 mod.PowerSettings.text.render.noInsert,'%s': End move | '%s': Delete | '%s'/'%s': Move,"1: The secondary menu-selection key (usually tab).
 2: The leftward menu key (usually left).
 3: The upward menu key (usually up).
-4: The downward menu key (usually down).",Shown in the list editor in modify mode.
+4: The downward menu key (usually down).",Previously shown in the list editor in modify mode. No longer used.
 mod.PowerSettings.text.searchHint,Use '%s' to search!,"1: The search key (usually control+f).",Shown in the component and entity selection menus.
 mod.PowerSettings.text.selectComponent,Select component,,
 mod.PowerSettings.text.selectEntity,Select entity,,
