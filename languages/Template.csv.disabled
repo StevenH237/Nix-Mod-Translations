@@ -6,6 +6,7 @@ translation.author,Nixill,,Author/credits for this translation
 ,,,
 ,,,Mod versions
 version.mod.LobbyMusic,1.0.1,,Version numbers are listed to keep track of which keys have been added.
+version.mod.Lola,1.1.3,,Version numbers are listed to keep track of which keys have been added.
 version.mod.NixLib,2.2.0,,Version numbers are listed to keep track of which keys have been added.
 version.mod.PowerSettings,2.6.0,,Version numbers are listed to keep track of which keys have been added.
 ,,,
@@ -14,6 +15,7 @@ settings.video.cutscene.subtitles,settings.video.cutscene.subtitles,,Listed here
 ,,,
 ,,,Mod names in settings
 settings.mod.LobbyMusic,Lobby Music,,
+settings.mod.Lola,Lola,,
 settings.mod.NixLib,NixLib,,
 settings.mod.PowerSettings,Power Settings,,
 settings.mod.SpatialDistortions,Spatial Distortions,,
@@ -69,6 +71,56 @@ settings.mod.LobbyMusic.zone3.value.hot,Hot only,,
 settings.mod.LobbyMusic.zone3.value.hot.description,Zone 3 tracks play hot.,,
 settings.mod.LobbyMusic.zone3.value.random,Random,,
 settings.mod.LobbyMusic.zone3.value.random.description,"Zone 3 tracks play either hot or cold, chosen at random.",,
+,,,
+,,,Lola
+component.Lola_forcedLowPercent.killerName,Lola's Curse,,
+entity.mod.Lola.lola.friendlyName.name,Lola,,
+entity.mod.Lola.lola.textCharacterSelectionMessage.text,"Lola mode!
+Low% rules apply.
+Receive revealed items (from
+chests, crates, etc.) when
+done with the floor!",,
+entity.mod.Lola.spellcastPackage.Lola_spellcastFlyawayPackage.baseText,Package,,
+entity.mod.Lola.spellcastPackage.Lola_spellcastFlyawayPackage.noTargets,Package (empty),,
+entity.mod.Lola.spellcastPackage.Lola_spellcastFlyawayPackage.cantAfford,Package (can't afford),,
+entity.mod.Lola.spellcastPackage.friendlyName.name,Package,,
+entity.mod.Lola.spellcastPackageGreater.Lola_spellcastFlyawayPackage.baseText,Greater Package,,
+entity.mod.Lola.spellcastPackageGreater.Lola_spellcastFlyawayPackage.noTargets,Greater Package (empty),,
+entity.mod.Lola.spellcastPackageGreater.Lola_spellcastFlyawayPackage.cantAfford,Greater Package (can't afford),,
+entity.mod.Lola.spellcastPackageGreater.Lola_spellcastFlyawayPackage.enemyCrate,Greater Package (enemy captured),,
+entity.mod.Lola.spellcastPackageGreater.friendlyName.name,Greater Package,,
+entity.mod.Lola.spellPackage.friendlyName.name,Package Spell,,
+entity.mod.Lola.spellPackage.itemHintLabel.text,Package items into crates,,
+entity.mod.Lola.spellPackage.spellBloodMagic.killerName,Blood Magic (Package),,
+mod.Lola.text.infinite,Infinite,,Used in the number of starting bombs
+settings.mod.Lola.preset,Preset,,
+settings.mod.Lola.preset.description,Select a rules preset to use.,,
+settings.mod.Lola.preset.default,Default rules,,
+settings.mod.Lola.preset.default.description,Lola's default rules,,
+settings.mod.Lola.preset.classic,Classic rules,,
+settings.mod.Lola.preset.classic.description,Classic rules: Nix's first clear,,
+settings.mod.Lola.gameplay,Gameplay settings,,
+settings.mod.Lola.gameplay.package,Package spell,,
+settings.mod.Lola.gameplay.package.value.none,None,,
+settings.mod.Lola.gameplay.package.value.none.description,Package Spell does not exist.,,
+settings.mod.Lola.gameplay.package.value.replaceable,Replaceable,,
+settings.mod.Lola.gameplay.package.value.replaceable.description,Lola starts with Package Spell and can lose it.,,
+settings.mod.Lola.gameplay.package.value.innate,Innate,,
+settings.mod.Lola.gameplay.package.value.innate.description,Lola starts with Package Spell and it is locked.,,
+settings.mod.Lola.gameplay.bombs,Starting bombs,,
+settings.mod.Lola.gameplay.storageVision,Chest vision,,
+settings.mod.Lola.gameplay.storageVision.description,"Whether or not Lola can see containers (such as chests, crates, shrines) at all times",,
+settings.mod.Lola.gameplay.glass,Allow picking up glass shards,,
+settings.mod.Lola.gameplay.glass.description,Can Lola pick up the shards of glass weapons and shovels that she was previously holding?,,
+settings.mod.Lola.gameplay.shrine,Receive shrine rewards,,
+settings.mod.Lola.gameplay.shrine.description,Does Lola get rewards from shrines that can be indirectly activated (such as Sacrifice)?,,
+settings.mod.Lola.gameplay.transaction,Receive tile purchases,,
+settings.mod.Lola.gameplay.transaction.description,Does Lola receive items purchased from the tiles in Conjurer/Transmogrifier rooms?,,
+settings.mod.Lola.silly,Silly settings,,
+settings.mod.Lola.silly.packageEnemies,Greater Package enemies,,
+settings.mod.Lola.silly.packageEnemies.description,Enemies can be captured by Greater Package,,
+settings.mod.Lola.silly.luteMode,Lute mode,,
+settings.mod.Lola.silly.luteMode.description,Play with the Golden Lute as your weapon!,,
 ,,,
 ,,,NixLib
 mod.NixLib.text.cancel,Cancel,,
