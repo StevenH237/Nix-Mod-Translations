@@ -3,11 +3,17 @@ translation.iso,en_XT,,"ISO-code, used for automatically matching the user's sys
 translation.language,English,,This translation's language's localized name
 translation.name,English (template for Nix's mods),,Name of this translation (disambiguates variants)
 translation.author,Nixill,,Author/credits for this translation
+,,,
+,,,Quick check
 settings.video.cutscene.subtitles,settings.video.cutscene.subtitles,,Listed here for a quick check if it's loaded.
+,,,
+,,,Mod names in settings
 settings.mod.NixLib,NixLib,,
 settings.mod.PowerSettings,PowerSettings,,
 settings.mod.SpatialDistortions,Spatial Distortions,,
 settings.mod.Switcheroo,Switcheroo,,
+,,,
+,,,NixLib
 mod.NixLib.text.cancel,Cancel,,
 mod.NixLib.text.continue,Continue,,
 mod.NixLib.text.default,Default,,
@@ -18,6 +24,8 @@ mod.NixLib.text.no,No,,
 mod.NixLib.text.randomize,Randomize,,
 mod.NixLib.text.reset,Reset,,
 mod.NixLib.text.yes,Yes,,
+,,,
+,,,PowerSettings
 mod.PowerSettings.text.addListItem,+ Add,,
 mod.PowerSettings.text.bitflagUnnamedDetail,Unnamed bit %s,- Which bit is unnamed?,
 mod.PowerSettings.text.bitflagUnnamed,Unnamed bit,,
@@ -51,6 +59,8 @@ mod.PowerSettings.text.render.noInsert,'%s': End move | '%s': Delete | '%s'/'%s'
 mod.PowerSettings.text.searchHint,Use '%s' to search!,"1: The search key (usually control+f).",Shown in the component and entity selection menus.
 mod.PowerSettings.text.selectComponent,Select component,,
 mod.PowerSettings.text.selectEntity,Select entity,,
+,,,
+,,,SpatialDistortions
 mod.SpatialDistortions.text.clumping.level,Level,,
 mod.SpatialDistortions.text.clumping.none,None,,
 mod.SpatialDistortions.text.clumping.zone,Zone,,
@@ -58,6 +68,8 @@ mod.SpatialDistortions.text.order.custom,Custom,,
 mod.SpatialDistortions.text.order.normal,Normal,,
 mod.SpatialDistortions.text.order.random,Random,,
 mod.SpatialDistortions.text.order.reversed,Reversed,,
+,,,
+,,,Switcheroo
 mod.Switcheroo.text.bans.giving.allow,Allow item,,
 mod.Switcheroo.text.bans.giving.dontAllow,Don't allow item,,
 mod.Switcheroo.text.bans.giving.dynamicGold,Allow while holding gold,,
