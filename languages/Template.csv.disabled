@@ -5,6 +5,7 @@ translation.name,English (template for Nix's mods),,Name of this translation (di
 translation.author,Nixill,,Author/credits for this translation
 ,,,
 ,,,Mod versions
+version.mod.LobbyMusic,1.0.1,,Version numbers are listed to keep track of which keys have been added.
 version.mod.NixLib,2.2.0,,Version numbers are listed to keep track of which keys have been added.
 version.mod.PowerSettings,2.6.0,,Version numbers are listed to keep track of which keys have been added.
 ,,,
@@ -12,10 +13,62 @@ version.mod.PowerSettings,2.6.0,,Version numbers are listed to keep track of whi
 settings.video.cutscene.subtitles,settings.video.cutscene.subtitles,,Listed here for a quick check if it's loaded.
 ,,,
 ,,,Mod names in settings
+settings.mod.LobbyMusic,Lobby Music,,
 settings.mod.NixLib,NixLib,,
 settings.mod.PowerSettings,Power Settings,,
 settings.mod.SpatialDistortions,Spatial Distortions,,
 settings.mod.Switcheroo,Switcheroo,,
+,,,
+,,,Lobby Music
+settings.mod.LobbyMusic.shopkeepers,Shopkeepers,,
+settings.mod.LobbyMusic.shopkeepers.description,Select which shopkeepers may be heard,,
+settings.mod.LobbyMusic.shopkeepers.monstrous_shopkeeper,Deadrick,,
+settings.mod.LobbyMusic.shopkeepers.nicolas_daoust,Nicolas Daoust,,
+settings.mod.LobbyMusic.shopkeepers.randomize,Use random shopkeeper?,,
+settings.mod.LobbyMusic.shopkeepers.randomize.description,"Should a random shopkeeper (from the below choices) be used, or just the one selected in Audio Options?",,
+settings.mod.LobbyMusic.shopkeepers.shopkeeper,Frederick,,
+settings.mod.LobbyMusic.soundtracks,Allowed soundtracks,,
+settings.mod.LobbyMusic.soundtracks.a_rival,A_Rival,,
+settings.mod.LobbyMusic.soundtracks.chipzel,Chipzel,,
+settings.mod.LobbyMusic.soundtracks.danganronpa,Danganronpa,,
+settings.mod.LobbyMusic.soundtracks.danny_b,Danny Baranowsky,,
+settings.mod.LobbyMusic.soundtracks.description,Select which soundtracks may play,,
+settings.mod.LobbyMusic.soundtracks.familyjules7x,FamilyJules,,
+settings.mod.LobbyMusic.soundtracks.familyjules7x.description,This isn't miswritten; he doesn't use the 7x in his branding any more.,,
+settings.mod.LobbyMusic.soundtracks.girlfriend_records,Girlfriend Records,,
+settings.mod.LobbyMusic.soundtracks.oc_remix,OC ReMix,,
+settings.mod.LobbyMusic.soundtracks.order,Soundtrack ordering,,
+settings.mod.LobbyMusic.soundtracks.order.description,In what order should soundtracks play?,,
+settings.mod.LobbyMusic.soundtracks.order.value.ordered,In order,,
+settings.mod.LobbyMusic.soundtracks.order.value.ordered.description,"All tracks play from a soundtrack, then the next (in the order below) plays",,
+settings.mod.LobbyMusic.soundtracks.order.value.randomEachLoop,Random each loop,,
+settings.mod.LobbyMusic.soundtracks.order.value.randomEachLoop.description,A random soundtrack is picked and all tracks play before picking again,,
+settings.mod.LobbyMusic.soundtracks.order.value.randomEachTrack,Random each track,,
+settings.mod.LobbyMusic.soundtracks.order.value.randomEachTrack.description,
+settings.mod.LobbyMusic.soundtracks.randomize,Always randomize?,,
+settings.mod.LobbyMusic.soundtracks.randomize.description,"Should random soundtracks be used, or only the one set in Change Soundtrack?
+The below options will be used if either this one's on or Chance Soundtrack is set to Random.",,settings.mod.LobbyMusic.soundtracks.randomize.description
+settings.mod.LobbyMusic.soundtracks.virt,Virt,,
+settings.mod.LobbyMusic.trackOrder,Track order,,
+settings.mod.LobbyMusic.trackOrder.description,What order should tracks play in?,,
+settings.mod.LobbyMusic.trackOrder.value.alternate,Alternate order,,
+settings.mod.LobbyMusic.trackOrder.value.alternate.description,All zone music is played before any boss music. Zones play forward.,,
+settings.mod.LobbyMusic.trackOrder.value.aria,Aria's Ascent,,This is a reference to the album title in which tracks play in (roughly) this order.
+settings.mod.LobbyMusic.trackOrder.value.aria.description,Zone and boss music are interspersed. Zones play in reverse.,,
+settings.mod.LobbyMusic.trackOrder.value.ordered,Fully ordered,,
+settings.mod.LobbyMusic.trackOrder.value.ordered.description,Zone and boss music are interspersed. Zones play forward.,,
+settings.mod.LobbyMusic.trackOrder.value.shuffle,Shuffled,,
+settings.mod.LobbyMusic.trackOrder.value.shuffle.description,Tracks are played in random order.,,
+settings.mod.LobbyMusic.zone3,Zone 3 tracks,,
+settings.mod.LobbyMusic.zone3.description,"Should zone 3 music play with hot, cold, or both?",,
+settings.mod.LobbyMusic.zone3.value.balanced,Balanced,,
+settings.mod.LobbyMusic.zone3.value.balanced.description,Zone 3 tracks play both sides evenly.,,
+settings.mod.LobbyMusic.zone3.value.cold,Cold only,,
+settings.mod.LobbyMusic.zone3.value.cold.description,Zone 3 tracks play cold.,,
+settings.mod.LobbyMusic.zone3.value.hot,Hot only,,
+settings.mod.LobbyMusic.zone3.value.hot.description,Zone 3 tracks play hot.,,
+settings.mod.LobbyMusic.zone3.value.random,Random,,
+settings.mod.LobbyMusic.zone3.value.random.description,"Zone 3 tracks play either hot or cold, chosen at random.",,
 ,,,
 ,,,NixLib
 mod.NixLib.text.cancel,Cancel,,
