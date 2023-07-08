@@ -77,13 +77,35 @@ mod.Switcheroo.text.bans.taking.dontTake,Don't take item,,
 mod.Switcheroo.text.bans.taking.take,Take item,,
 mod.Switcheroo.text.bans.taking.ifGiven,Take if given by mod,,
 mod.Switcheroo.text.charmsAlgorithms.simple,Simple,,
-mod.Switcheroo.text.floors.depth,Depth %d-%d,"1: What depth (like zone but always increments) is the setting for
-2: What level of that depth is the setting for",
+mod.Switcheroo.text.floors.depth,%s floor (%d-%d),"1: What floor in absolute numbers is the setting for
+2: What depth (like zone but always increments) is the setting for
+3: What level of that depth is the setting for",
 mod.Switcheroo.text.floors.extraBoss,Add extra/custom boss floors,,"If the player is using mods that add custom zones, or if the run is in a custom dungeon, this flag controls whether or not the mod is allowed on boss floors of those zones/dungeons."
 mod.Switcheroo.text.floors.extraOther,Add other extra floors,,"If the player is using mods that add custom zones, or if the run is in a custom dungeon, this flag controls whether or not the mod is allowed on non-boss, non-post-boss floors of those zones/dungeons."
 mod.Switcheroo.text.floors.extraPostBosses,Add extra post-boss floors,,"If the player is using mods that add custom zones, or if the run is in a custom dungeon, this flag controls whether or not the mod is allowed on the floor immediately following a boss fight in those zones/dungeons."
 mod.Switcheroo.text.floors.extraStoryBoss,Extra story boss,,"If there is more than one story boss, this flag controls whether or not the mod activates on those fights (under default rules, that means ND1 for Cadence or The Conductor for Nocturna)."
-mod.Switcheroo.text.floors.rawNumbers,Raw floor numbers above,,"If this flag is enabled, the Depth x-x flags are instead treated as raw floor numbers 1 to 20 for a custom dungeon. When disabled, custom dungeons won't use those floor flags at all (except that 1-1 will ALWAYS refer to the first floor of a run)."
+mod.Switcheroo.text.floors.ordinal.1,1st,,
+mod.Switcheroo.text.floors.ordinal.2,2nd,,
+mod.Switcheroo.text.floors.ordinal.3,3rd,,
+mod.Switcheroo.text.floors.ordinal.4,4th,,
+mod.Switcheroo.text.floors.ordinal.5,5th,,
+mod.Switcheroo.text.floors.ordinal.6,6th,,
+mod.Switcheroo.text.floors.ordinal.7,7th,,
+mod.Switcheroo.text.floors.ordinal.8,8th,,
+mod.Switcheroo.text.floors.ordinal.9,9th,,
+mod.Switcheroo.text.floors.ordinal.10,10th,,
+mod.Switcheroo.text.floors.ordinal.11,11th,,
+mod.Switcheroo.text.floors.ordinal.12,12th,,
+mod.Switcheroo.text.floors.ordinal.13,13th,,
+mod.Switcheroo.text.floors.ordinal.14,14th,,
+mod.Switcheroo.text.floors.ordinal.15,15th,,
+mod.Switcheroo.text.floors.ordinal.16,16th,,
+mod.Switcheroo.text.floors.ordinal.17,17th,,
+mod.Switcheroo.text.floors.ordinal.18,18th,,
+mod.Switcheroo.text.floors.ordinal.19,19th,,
+mod.Switcheroo.text.floors.ordinal.20,20th,,
+mod.Switcheroo.text.floors.ordinal.21,21st,,
+mod.Switcheroo.text.floors.rawNumbers,Custom dungeons use floor numbers,,"If this flag is enabled, the Depth x-x flags are instead treated as raw floor numbers 1 to 20 for a custom dungeon. When disabled, custom dungeons won't use those floor flags at all (except that 1-1 will ALWAYS refer to the first floor of a run)."
 mod.Switcheroo.text.floors.trainingFloors,Training floors,,"If this flag is enabled, the mod can be active in training floors."
 mod.Switcheroo.text.floorPresets.allFloors,All floors,,"The mod activates on all floors (this is the default)."
 mod.Switcheroo.text.floorPresets.firstOfZone,First of each zone,,"The mod activates on the first floor of each zone."
