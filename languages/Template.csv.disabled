@@ -11,7 +11,8 @@ version.mod.Lola,1.1.3,,
 version.mod.NixsItems,1.0.0,,
 version.mod.NixLib,2.2.0,,
 version.mod.PowerSettings,2.6.0,,
-version.mod.SaveEditor,1.1.0,
+version.mod.SaveEditor,1.1.0,,
+version.mod.SpatialDistortions,0.0.5,,
 ,,,
 ,,,Quick check
 settings.video.cutscene.subtitles,settings.video.cutscene.subtitles,,Listed here for a quick check if it's loaded.
@@ -206,10 +207,35 @@ mod.SaveEditor.text.selectAllButton,Select all,,
 mod.SpatialDistortions.text.clumping.level,Level,,
 mod.SpatialDistortions.text.clumping.none,None,,
 mod.SpatialDistortions.text.clumping.zone,Zone,,
+mod.SpatialDistortions.text.hud.floorNumber,%s  (%d/%d),"1: The usual text identifying the floor (like ""Depth: 1  Level: 1"")
+2: Which floor is this in the shuffled sequence order (like 8)
+3: How many floors are there in the total sequence (like 20)",Used in a procedurally generated run
+mod.SpatialDistortions.text.hud.floorNumberCustom,Floor %d of %d,"1: Which floor is this in the shuffled sequence order (like 8)
+2: How many floors are there in the total sequence (like 20)",Used in a custom dungeon run
+mod.SpatialDistortions.text.inGame.first.above,Spatial distortions!,,
+mod.SpatialDistortions.text.inGame.first.below,"Floors occur in a
+randomized order!",,
+mod.SpatialDistortions.text.inGame.last.above,Final floor!,,
+mod.SpatialDistortions.text.inGame.last.belowLoop,"Complete this floor
+to win this loop!",,
+mod.SpatialDistortions.text.inGame.last.belowRun,"Complete this floor
+to win the run!",,
 mod.SpatialDistortions.text.order.custom,Custom,,
 mod.SpatialDistortions.text.order.normal,Normal,,
 mod.SpatialDistortions.text.order.random,Random,,
 mod.SpatialDistortions.text.order.reversed,Reversed,,
+settings.mod.SpatialDistortions.floor,Floor order,,
+settings.mod.SpatialDistortions.floor.description,What order should the floors of a single zone be in?,,
+settings.mod.SpatialDistortions.zone,Zone order,,
+settings.mod.SpatialDistortions.zone.description,What order should the zones of each level be in?,,
+settings.mod.SpatialDistortions.clustering,Clustering,,
+settings.mod.SpatialDistortions.clustering.description,Should all floors of a zone (or all zones of a floor) be together?,,
+settings.mod.SpatialDistortions.alignment,Preserve boss alignment,,
+settings.mod.SpatialDistortions.alignment.description,Should all bosses be kept in the same positions in a shuffle?,,
+settings.mod.SpatialDistortions.singleBoss,Force single final boss,,
+settings.mod.SpatialDistortions.singleBoss.description,"If enabled, there can only be one final boss. This may be enabled automatically by other settings.",,
+settings.mod.SpatialDistortions.finalFloorText,Final floor warning text,,
+settings.mod.SpatialDistortions.finalFloorText.description,Should a warning label appear on the final floor?,,
 ,,,
 ,,,Switcheroo
 mod.Switcheroo.text.bans.giving.allow,Allow item,,
